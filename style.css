@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'LongCang';
+    src: url('LongCang-Regular.ttf') format('truetype');
+}
+*{
+    font-family: LongCang;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: rgb(196, 197, 184);
+    height: 100px;
+    width: 100%;
+    padding: 0px;
+}
+main{
+    flex: 1;
+    color: red;
+}
+section{
+    height: calc(100vh - 200px) ;
+    background-image: url(batman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    
+}
+aside{
+    width: 35%;
+    background-color: chocolate;
+    
+}
+footer{
+    height: 100px;
+    background-color: cornflowerblue;
+}
+#linha ul{
+    padding: 10px;
+    margin: 0px;
+}
+#categories a {
+    width: 50px;
+    padding: 10px;
+    float: left;
+    text-decoration: none;
+}
+#linha a {
+    text-decoration: none;  
+}
+#linha li  {
+    float: right;
+    margin-right: 20px;
+    list-style: none;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    height: 100vh;
+    background-color: bisque;
+    padding: 0;
+    margin: auto;
+}
+.menu li{
+    height: 100px;
+    margin: 10px;
+    list-style: none;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu li:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+    background-color:  rgb(219, 50, 50);
+    border-radius: 100%;
+}
+
+
+@media (min-width: 576px) { 
+    .menu{
+        background: black;
+    }
+}
+@media (min-width: 768px) {
+    .menu{
+       background-color: black;
+    }
+  }
+
+@media (min-width: 992px) {
+.menu{
+    background-color: blue;
+    }
+}
+
+@media (min-width: 1200px) {  }
+
+
+@media (min-width: 1400px) {  }
